@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Search</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <a class="search" href="./index.html">
+        <img src="./img/googlelogo_clr_74x24px.png"></a>    
+    <label class="advanced-search-title">Розширений пошук</label>
+    <br> <br>
+    <hr color="gainsboro" size="2px" />
+    <br>
+    <div class="advanced-search-options">
+        <p class="find-pages-from">Знайти сторінки із…</p>
+        <form class="button-advanced-search" action="https://google.com/search" 
+        autocomplete="off">
+            <p>
+                <label for="input-text-as_q" style="margin-right: 100px;">усіма цими словами:</label>
+                <input class="input-text-advanced-search-field" 
+                id="input-text-as_q" type="text" name="as_q">
+            </p>
+            <p>
+                <label for="input-text-as_epq" style="margin-right: 23px;">саме цим словом або фразою:</label>
+                <input class="input-text-advanced-search-field" 
+                id="input-text-as_epq" type="text" name="as_epq">
+            </p>
+            <p>
+                <label for="input-text-as_oq" style="margin-right: 90px;">будь-яким із цих слів:</label>
+                <input class="input-text-advanced-search-field" 
+                id="input-text-as_oq" type="text" name="as_oq">
+            </p>
+            <p>
+                <label for="input-text-as_eq" style="margin-right: 130px;">жодне з цих слів:</label>
+                <input class="input-text-advanced-search-field" 
+                id="input-text-as_eq" type="text" name="as_eq">
+            </p>
+            <input class="button-submit-advanced-search" type="submit" value="Розширений пошук">
+        </form>
+    </div>
+
+</body>
+    
+</html>
