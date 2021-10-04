@@ -1,0 +1,99 @@
+/* Пошук Google CSS */
+a {
+  text-decoration: none;
+  padding: 10px 24px;
+  border-radius: 4px;
+}
+
+.center {
+  margin: 0 auto;
+  display: block;
+}
+
+.right {
+  display: block;
+  margin-top: 30px;
+  text-align: right;
+}
+
+.form-search {
+  text-align: center;
+  display: block;
+}
+
+.search {
+  margin-right: 30px;
+  display: block;
+  text-align: right;
+}
+
+.images {
+  color: blue;
+}
+
+.advanced-search,
+.advanced-search-title {
+  color: red;
+}
+.advanced-search-title,
+.find-pages-from,
+.images,
+.advanced-search {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.advanced-search-title,
+.advanced-search-options {
+  margin-left: 35px;
+}
+
+.input-text-search {
+  font-size: 20px;
+  width: 500px;
+  border: 1px solid gainsboro;
+  border-radius: 20px;
+  outline: none;
+  padding: 10px 20px;
+}
+
+.button-submit-search {
+  margin-right: 20px;
+}
+
+.button-submit-search,
+.button-submit-lucky-search,
+.button-submit-image-search,
+.button-submit-advanced-search {
+  font-size: 18px;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 4px;
+}
+
+.button-submit-advanced-search {
+  margin-left: 450px;
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.button-submit-search:hover,
+.button-submit-lucky-search:hover,
+.button-submit-image-search:hover,
+.button-submit-advanced-search:hover,
+.images:hover,
+.advanced-search:hover {
+  outline: 1px solid grey;
+}
+
+.input-text-advanced-search-field {
+  width: 500px;
+  height: 30px;
+  border: 2px solid gainsboro;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.input-text-advanced-search-field:focus {
+  outline: none !important;
+  border-color: #719ece;
+  box-shadow: 0 0 10px #719ece;
+}
