@@ -1,22 +1,4 @@
 /* Пошук Google CSS */
-#input_container {
-  position: relative;
-  padding: 0;
-  margin: 0;
-}
-#input {
-  height: 20px;
-  margin: 0;
-  padding-left: 30px;
-}
-#input_img {
-  position: absolute;
-  bottom: 8px;
-  left: 10px;
-  width: 20px;
-  height: 12px;
-}
-
 a {
   text-decoration: none;
   padding: 10px 24px;
@@ -45,7 +27,7 @@ a {
   text-align: right;
 }
 
-.images {
+.link-images {
   color: blue;
 }
 
@@ -56,7 +38,7 @@ a {
 .input-text-search,
 .advanced-search-title,
 .find-pages-from,
-.images,
+.link-images,
 .advanced-search {
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
@@ -104,7 +86,7 @@ a {
 .button-submit-lucky-search:hover,
 .button-submit-image-search:hover,
 .button-submit-advanced-search:hover,
-.images:hover,
+.link-images:hover,
 .advanced-search:hover {
   outline: 1px solid grey;
   cursor: pointer;
