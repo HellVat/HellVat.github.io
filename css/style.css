@@ -1,11 +1,29 @@
 /* Пошук Google CSS */
+#input_container {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+#input {
+  height: 20px;
+  margin: 0;
+  padding-left: 30px;
+}
+#input_img {
+  position: absolute;
+  bottom: 8px;
+  left: 10px;
+  width: 20px;
+  height: 12px;
+}
+
 a {
   text-decoration: none;
   padding: 10px 24px;
   border-radius: 4px;
 }
 
-.center {
+.img-google-center {
   margin: 0 auto;
   display: block;
 }
@@ -54,8 +72,14 @@ a {
   border-radius: 20px;
   outline: none;
   padding: 10px 20px;
+  background: url("../img/google_loupe_search.png") no-repeat scroll 11px 11px;
+  padding-left: 40px;
 }
-
+.input-text-search:hover,
+.input-text-advanced-search-field:hover {
+  outline: 1px solid gainsboro;
+  box-shadow: 0 0 10px gainsboro;
+}
 .button-submit-search {
   margin-right: 20px;
 }
@@ -83,6 +107,7 @@ a {
 .images:hover,
 .advanced-search:hover {
   outline: 1px solid grey;
+  cursor: pointer;
 }
 
 .input-text-advanced-search-field {
@@ -92,6 +117,8 @@ a {
   padding-left: 5px;
   padding-right: 5px;
 }
+
+.input-text-search:focus,
 .input-text-advanced-search-field:focus {
   outline: none !important;
   border-color: #719ece;
